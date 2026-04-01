@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<testsuite name="Cucumber" time="2.306" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-04-01T11:43:45.773Z">
+  <testcase classname="Login" name="Open Sauce Lab Demo Site" time="1.686">
+    <system-out><![CDATA[Given I open the login page.................................................passed
+Then I should see the page title............................................passed]]></system-out>
+  </testcase>
+</testsuite>

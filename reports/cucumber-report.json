@@ -1,0 +1,66 @@
+[
+  {
+    "description": "    Feature Description",
+    "elements": [
+      {
+        "description": "",
+        "id": "login;open-sauce-lab-demo-site",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Open Sauce Lab Demo Site",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 238262200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open the login page",
+            "match": {
+              "location": "step-definitions\\login.steps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1215528799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should see the page title",
+            "match": {
+              "location": "step-definitions\\login.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 128696699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 93228799
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login",
+    "tags": [],
+    "uri": "features\\login.feature"
+  }
+]

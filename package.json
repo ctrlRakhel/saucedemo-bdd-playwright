@@ -1,0 +1,19 @@
+{
+  "name": "saucedemo-e2e",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.7.0",
+    "@types/node": "^25.5.0",
+    "playwright": "^1.59.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.2"
+  }
+}
