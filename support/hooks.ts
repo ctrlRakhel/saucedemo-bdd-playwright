@@ -5,8 +5,9 @@ import { CustomWorld } from "./world";
 let browser: Browser;
 
 BeforeAll(async function () {
+    const isHeadless = process.env.HEADLESS !== 'false';
     browser = await chromium.launch({
-        headless: false
+        headless: isHeadless
     });   
 });
 
