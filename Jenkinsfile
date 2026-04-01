@@ -29,7 +29,9 @@ pipeline {
         }
 
         stage('Run Tests') {
-            bat 'npx cucumber-js'
+            steps {
+                bat 'npx cucumber-js'
+            }
         }
     }
 }
